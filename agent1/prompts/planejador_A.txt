@@ -1,0 +1,3 @@
+Crie um plano de estudos em português para os dados recebidos.
+Use as ferramentas disponíveis para consultar recursos do catálogo.
+Retorne PlanoEstudos. A soma não pode ultrapassar o tempo disponível.

@@ -1,0 +1,29 @@
+[project]
+name = "pb-agent1"
+version = "0.3.0"
+description = "Planejador de estudos com tools, RAG e sessões persistentes"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.143.3",
+    "openai-agents>=0.21.1",
+    "python-dotenv>=1.2.3",
+    "uvicorn>=0.52.3",
+]
+
+[project.scripts]
+tp1-pb = "agent.main:main"
+tp2-pb = "agent.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "agent"
+module-root = ""
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+]

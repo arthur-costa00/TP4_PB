@@ -1,0 +1,7 @@
+[
+  {"id":"py-01","assunto":"Python","nivel":"iniciante","topico":"Variáveis e tipos","minutos_sugeridos":30,"url":"https://docs.python.org/pt-br/3/tutorial/introduction.html"},
+  {"id":"py-02","assunto":"Python","nivel":"iniciante","topico":"Condicionais e laços","minutos_sugeridos":40,"url":"https://docs.python.org/pt-br/3/tutorial/controlflow.html"},
+  {"id":"py-03","assunto":"Python","nivel":"iniciante","topico":"Funções e exercícios","minutos_sugeridos":45,"url":"https://docs.python.org/pt-br/3/tutorial/controlflow.html#defining-functions"},
+  {"id":"py-04","assunto":"Python","nivel":"intermediario","topico":"Estruturas de dados e módulos","minutos_sugeridos":60,"url":"https://docs.python.org/pt-br/3/tutorial/datastructures.html"},
+  {"id":"py-05","assunto":"Python","nivel":"avancado","topico":"Classes e iteradores","minutos_sugeridos":60,"url":"https://docs.python.org/pt-br/3/tutorial/classes.html"}
+]

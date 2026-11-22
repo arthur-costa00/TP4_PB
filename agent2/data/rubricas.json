@@ -1,0 +1,48 @@
+[
+  {
+    "id": "py-func-01",
+    "enunciado": "Considere def dobro(n): return n * 2. O que dobro(4) retorna? Explique.",
+    "gabarito": "Retorna 8, pois a função multiplica o argumento 4 por 2.",
+    "resposta_integral": {
+      "padrao": "(?:a função )?(?:retorna|devolve) (?:8|oito),? (?:porque|pois) (?:a função )?multiplica (?:o argumento )?4 por 2[.!]?",
+      "feedback": {
+        "resultado": "A resposta identifica corretamente o retorno 8.",
+        "explicacao": "A resposta explica que a função multiplica 4 por 2."
+      },
+      "proximo_passo": "Teste a função dobro com outro argumento e explique o retorno."
+    },
+    "criterios": [
+      {
+        "id": "resultado",
+        "descricao": "Identifica o retorno 8",
+        "maximo": 6,
+        "valores_esperados": [
+          "8",
+          "oito"
+        ]
+      },
+      {
+        "id": "explicacao",
+        "descricao": "Explica a multiplicação de 4 por 2 pela função",
+        "maximo": 4
+      }
+    ]
+  },
+  {
+    "id": "py-list-01",
+    "enunciado": "Qual a diferença entre lista e tupla em Python? Dê um exemplo de uso de cada.",
+    "gabarito": "Lista é mutável, tupla é imutável. Exemplo: lista de tarefas editável e tupla de coordenadas fixas.",
+    "criterios": [
+      {
+        "id": "mutabilidade",
+        "descricao": "Diferencia mutabilidade de lista e tupla",
+        "maximo": 6
+      },
+      {
+        "id": "exemplos",
+        "descricao": "Fornece exemplos coerentes para ambas",
+        "maximo": 4
+      }
+    ]
+  }
+]

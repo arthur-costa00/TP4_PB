@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/tutor/**)",
+      "Read(/tests/**)",
+      "Read(/prompts/**)",
+      "Bash(uv run python -m unittest discover -s tests -v)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Edit(.env)",
+      "Edit(.env.*)",
+      "Read(runtime/**)",
+      "Edit(runtime/**)"
+    ],
+    "ask": [
+      "Edit(/tutor/**)",
+      "Edit(/data/rubricas.json)"
+    ]
+  }
+}
